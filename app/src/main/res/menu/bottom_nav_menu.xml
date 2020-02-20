@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/user_profile"
+        app:showAsAction="always"
+        android:title="@string/title_article" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat"
+        app:showAsAction="always"
+        android:title="@string/title_chat" />
+    <item
+        android:id="@+id/navigation_unsafe_Places"
+        android:icon="@drawable/unsafe"
+        app:showAsAction="always"
+        android:title="@string/title_unsafe" />
+    <item
+        android:id="@+id/navigation_More"
+        android:icon="@drawable/more"
+        android:title="@string/title_more"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/yellow"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        app:cardElevation="@dimen/_10sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#2E4053"
+            android:layout_margin="@dimen/_1sdp"
+
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/addressUnsafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Text Here"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:paddingBottom="10dp"
+
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

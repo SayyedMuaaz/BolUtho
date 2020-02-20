@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "719730416529",
+    "firebase_url": "https://bol-utho-625b5.firebaseio.com",
+    "project_id": "bol-utho-625b5",
+    "storage_bucket": "bol-utho-625b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719730416529:android:eebb951fe210c660ad5830",
+        "android_client_info": {
+          "package_name": "com.example.bolutho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719730416529-nso9j0dv3ice248obk0kt3upmv0mt8r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bolutho",
+            "certificate_hash": "56f651c127332b2730fc37ae24d7d779e4ddbe59"
+          }
+        },
+        {
+          "client_id": "719730416529-7h1908dhpshm8tmrngvnf701gs3d28c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bolutho",
+            "certificate_hash": "d70e1bf9fc827f8af65db8aacd1e375f1195b30d"
+          }
+        },
+        {
+          "client_id": "719730416529-83jmr3sr62t1atijrrmg6th8tque9hkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBalYCW8z6BpS_nvu1l-POVvY4_Zu6UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719730416529-83jmr3sr62t1atijrrmg6th8tque9hkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

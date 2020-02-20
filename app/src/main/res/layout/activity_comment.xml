@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/header"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkgrey"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/darkgrey"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/backPress"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:src="@drawable/back"/>
+                <TextView
+
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="COMMENTS"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <View android:layout_width="match_parent"
+            android:id="@+id/border"
+            android:layout_height="1dp"
+            android:background="@color/yellow"
+            android:layout_below="@+id/toolBar"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/commentSection"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userProfile"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/commentET"
+            android:src="@drawable/user_profile">
+        </com.mikhaellopez.circularimageview.CircularImageView>
+        <EditText
+            android:id="@+id/commentET"
+            android:layout_width="match_parent"
+            android:hint="Please Write A Comment"
+            android:background="@null"
+            android:paddingLeft="@dimen/_50sdp"
+            android:textSize="@dimen/_10sdp"
+            android:paddingRight="@dimen/_50sdp"
+            android:paddingTop="@dimen/_13sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/sender"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/commentsender"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/commentET"
+            />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_48sdp"
+        android:layout_marginBottom="@dimen/_48sdp"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

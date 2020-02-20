@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bol Utho</string>
+    <string name="title_home">Home</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_article">Profile</string>
+    <string name="title_unsafe">Unsafe</string>
+    <string name="title_more">More</string>
+    <string name="title_location_permission">Location Permission</string>
+    <string name="text_location_permission">Do You Want To Allow This</string>
+    <string name="ok">Thank You</string>
+    <string name="Picture">Choose Picture From Gallery</string>
+    <string name="Video">Choose Video From Gallery</string>
+    <string name="Action">Select Action</string>
+    <string name="login_facebook">Login Using Facebook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">1005534599781896</string>
+    <string name="fb_login_protocol_scheme">fb1005534599781896</string>
+</resources>
